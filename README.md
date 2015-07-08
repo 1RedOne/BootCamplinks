@@ -1,3 +1,7 @@
+﻿#Julie & Mike & iVision colleagues
+Thanks for taking a look guys.  I'd really like your help to tell me if the PowerShell remoting and azure stuff makes sense here.  Thanks guys!  
+
+Course stuff below
 # Copy this to your Azure VM
 Download this whole Repo as a .zip file using the link on the right side.  Unzip it to your Azure VM's C:\PowerShell folder.  
 
