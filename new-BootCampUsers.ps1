@@ -12,8 +12,8 @@ ForEach ($OU in $Ous) {
         $first = Get-Random $names.First_Name
         $last  = Get-Random $names.Last_Name
 
-    "$first $last"
-    new-aduser -name "$First $last" -Path $OU -WhatIf
+    "$first $last Logon Name : $($first[0]).$last"
+    new-aduser -name "$First $last" -GivenName $first -Surname $last -SamAccountName "$($first[0]).$last" -Path $OU 
     
     }
 }
